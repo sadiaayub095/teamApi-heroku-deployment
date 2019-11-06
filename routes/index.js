@@ -10,4 +10,6 @@ exports = module.exports = function (app) {
 
     app.get('/api/team', team.get);
 
+    //app.get('/api/team', team.get);
+
 };
