@@ -480,36 +480,8 @@ const teamdata = [
 const Controllerteam = {
     get:(req,res)=>{
         res.send( teamdata);
-    },
-    // getOne:(req,res) => {
-    //     const team = team.find(t => t.id == parseInt(req.param.id));
-    //     if(team)res.send(404).send('id not found');
-    //     res.send(team);
-    // },
-    // post:(req, res)=> {
-    //
-    //     const addteam = {
-    //         id: team.length+1,
-    //         name: req.body.name,
-    //         company: req.body.company,
-    //         email: req.body.email,
-    //         phone: req.body.phone,
-    //         address: req.body.address
-    //     };
-    //     team.push(team);
-    //     res.send(addteam)
-    // },
+    }
 
-//     addData:(req,res)=>{
-//                 id: team.length+1,
-//                 name: req.body.name,
-//                 company: req.body.company,
-//                 email: req.body.email,
-//                 phone: req.body.phone,
-//                 address: req.body.address
-//         const response ={};
-//
-// }
 };
 
 module.exports = Controllerteam;
